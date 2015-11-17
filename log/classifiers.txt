@@ -1,0 +1,40 @@
+
+
+6 minutes or so...
+Total documents number is : 6363 , and right prediction is : 5327.0 .
+The accuacy rate of svm is : 0.8371837183718371
+
+
+"D:\Program Files\jdk1.7.0_51\bin\java" -Didea.launcher.port=7535 "-Didea.launcher.bin.path=D:\Program Files (x86)\JetBrains\IntelliJ IDEA 13.1.4\bin" -Dfile.encoding=UTF-8 -classpath "D:\Users\IDEA\workspace\WingaClassifier\bin;D:\Program Files\jdk1.7.0_51\jre\lib\charsets.jar;D:\Program Files\jdk1.7.0_51\jre\lib\deploy.jar;D:\Program Files\jdk1.7.0_51\jre\lib\javaws.jar;D:\Program Files\jdk1.7.0_51\jre\lib\jce.jar;D:\Program Files\jdk1.7.0_51\jre\lib\jfr.jar;D:\Program Files\jdk1.7.0_51\jre\lib\jfxrt.jar;D:\Program Files\jdk1.7.0_51\jre\lib\jsse.jar;D:\Program Files\jdk1.7.0_51\jre\lib\management-agent.jar;D:\Program Files\jdk1.7.0_51\jre\lib\plugin.jar;D:\Program Files\jdk1.7.0_51\jre\lib\resources.jar;D:\Program Files\jdk1.7.0_51\jre\lib\rt.jar;D:\Program Files\jdk1.7.0_51\jre\lib\ext\access-bridge-64.jar;D:\Program Files\jdk1.7.0_51\jre\lib\ext\dnsns.jar;D:\Program Files\jdk1.7.0_51\jre\lib\ext\jaccess.jar;D:\Program Files\jdk1.7.0_51\jre\lib\ext\localedata.jar;D:\Program Files\jdk1.7.0_51\jre\lib\ext\sunec.jar;D:\Program Files\jdk1.7.0_51\jre\lib\ext\sunjce_provider.jar;D:\Program Files\jdk1.7.0_51\jre\lib\ext\sunmscapi.jar;D:\Program Files\jdk1.7.0_51\jre\lib\ext\zipfs.jar;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 13.1.4\lib\junit-4.11.jar;D:\Users\IDEA\workspace\WingaClassifier\lib\elasticsearch-2.0.0-SNAPSHOT.jar;D:\Users\IDEA\workspace\WingaClassifier\lib\ik-analysis-5.0.1.jar;D:\Users\IDEA\workspace\WingaClassifier\lib\lucene-core-4.9.0.jar;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 13.1.4\lib\idea_rt.jar" com.intellij.rt.execution.application.AppMain com.winga.xxl.classifier.multi.SubKMeansClusterPercentDemo
+Nov 22, 2014 12:36:15 PM org.elasticsearch.ik-analyzer
+INFO: [Dict Loading]ik\custom\mydict.dic
+Nov 22, 2014 12:36:15 PM org.elasticsearch.ik-analyzer
+INFO: [Dict Loading]ik\custom\single_word_low_freq.dic
+Nov 22, 2014 12:36:15 PM org.elasticsearch.ik-analyzer
+INFO: [Dict Loading]ik\custom\sougou.dic
+Nov 22, 2014 12:36:18 PM org.elasticsearch.ik-analyzer
+INFO: [Dict Loading]ik\custom\ext_stopword.dic
+进入KmeansCluster聚类过程...	doc总个数为：5810
+已完成1次迭代:
+	第0组中有789个文档     	center相似度为：0.9999536057210587
+	第1组中有541个文档     	center相似度为：0.9995909247801388
+	第2组中有821个文档     	center相似度为：0.9998352382104496
+	第3组中有701个文档     	center相似度为：0.9995642367901683
+	第4组中有1536个文档     	center相似度为：0.9999089429031506
+	第5组中有851个文档     	center相似度为：0.9999693581685619
+	第6组中有571个文档     	center相似度为：0.999604159429625
+Now time is : 2014-11-22 02:41:39
+共迭代1次!
+Total documents number is : 6363 , and right prediction is : 5576.0 .
+The accuacy rate of kmeans is : 0.8763162030488764
+
+
+
+NB Feature words : 1500
+Total documents number is : 6363 , and right prediction is : 5714.0 .
+The accuacy rate of NB is : 0.898004086122898
+
+
+NB Feature words : 500
+Total documents number is : 6363 , and right prediction is : 6363.0 .
+The accuacy rate of NB is : 1.0

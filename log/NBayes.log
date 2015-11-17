@@ -1,0 +1,40 @@
+
+1、int featureNum = 5;// Initize the NB parameter.
+
+Total documents number is : 5808 , and right prediction is : 4304.0 .
+The accuacy rate of NB is : 0.7410468319559229
+
+2、int featureNum = 15;// Initize the NB parameter.
+
+Total documents number is : 5808 , and right prediction is : 5228.0 .
+The accuacy rate of NB is : 0.900137741046832
+
+3、int featureNum = 50;// Initize the NB parameter.
+
+Total documents number is : 5808 , and right prediction is : 5362.0 .
+The accuacy rate of NB is : 0.9232093663911846
+
+4、int featureNum = 150;// Initize the NB parameter.
+
+Total documents number is : 5808 , and right prediction is : 5572.0 .
+The accuacy rate of NB is : 0.959366391184573
+
+5、int featureNum = 500;// Initize the NB parameter.
+
+Total documents number is : 5808 , and right prediction is : 5808.
+The accuacy rate of NB is : 1.0
+
+6、int featureNum = 1500;// Initize the NB parameter.
+
+Total documents number is : 5808 , and right prediction is : 5466.0 .
+The accuacy rate of NB is : 0.9411157024793388
+
+7、int featureNum = 5000;// Initize the NB parameter.
+
+Total documents number is : 5808 , and right prediction is : 4769.0 .
+The accuacy rate of NB is : 0.8211088154269972
+
+8、int featureNum = 50000;// Initize the NB parameter.
+
+Total documents number is : 5808 , and right prediction is : 4802.0 .
+The accuacy rate of NB is : 0.8267906336088154

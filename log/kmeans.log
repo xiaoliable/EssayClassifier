@@ -1,0 +1,49 @@
+
+
+String sampleFilePath = "xml" + File.separator + "categoryResult" + File.separator + "workBase";
+		
+String sampleCenterFilePath = "xml" + File.separator + "CategorySample";
+
+
+1、TrainParameter trainParameter = new KMeansTrainParameter(cateNum, outputPath, sampleFilePath);
+
+进入KmeansCluster聚类过程...	doc总个数为：5810
+已完成1次迭代:
+	第0组中有789个文档     	center相似度为：0.9999536057210587
+	第1组中有541个文档     	center相似度为：0.9995909247801388
+	第2组中有821个文档     	center相似度为：0.9998352382104496
+	第3组中有701个文档     	center相似度为：0.9995642367901683
+	第4组中有1536个文档     	center相似度为：0.9999089429031506
+	第5组中有851个文档     	center相似度为：0.9999693581685619
+	第6组中有571个文档     	center相似度为：0.999604159429625
+Now time is : 2014-11-25 20:16:44
+共迭代1次!
+Total documents number is : 5808 , and right prediction is : 5547.0 .
+The accuacy rate of kmeans is : 0.9550619834710744
+
+
+
+2、TrainParameter trainParameter = new KMeansTrainParameter(cateNum, outputPath, sampleCenterFilePath);
+
+进入KmeansCluster聚类过程...	doc总个数为：5810
+已完成1次迭代:
+	第0组中有1081个文档     	center相似度为：0.8720765292418081
+	第1组中有570个文档     	center相似度为：0.9058313443426118
+	第2组中有832个文档     	center相似度为：0.7472351365290912
+	第3组中有709个文档     	center相似度为：0.6403051076942048
+	第4组中有1257个文档     	center相似度为：0.8331050341735244
+	第5组中有842个文档     	center相似度为：0.8376952716331061
+	第6组中有519个文档     	center相似度为：0.8098456163232455
+Now time is : 2014-11-25 20:47:35
+已完成2次迭代:
+	第0组中有1141个文档     	center相似度为：0.9979368988879873
+	第1组中有541个文档     	center相似度为：0.9990882947854028
+	第2组中有823个文档     	center相似度为：0.9998684344623705
+	第3组中有760个文档     	center相似度为：0.9982047020078767
+	第4组中有1192个文档     	center相似度为：0.9980431302588608
+	第5组中有846个文档     	center相似度为：0.9999962238001145
+	第6组中有507个文档     	center相似度为：0.9993198831519925
+Now time is : 2014-11-25 20:53:11
+共迭代2次!
+Total documents number is : 5808 , and right prediction is : 5110.0 .
+The accuacy rate of kmeans is : 0.8798209366391184

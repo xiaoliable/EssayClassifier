@@ -1,0 +1,74 @@
+Nov 26, 2014 7:32:55 PM org.elasticsearch.ik-analyzer
+INFO: [Dict Loading]ik\custom\mydict.dic
+Nov 26, 2014 7:32:55 PM org.elasticsearch.ik-analyzer
+INFO: [Dict Loading]ik\custom\single_word_low_freq.dic
+Nov 26, 2014 7:32:55 PM org.elasticsearch.ik-analyzer
+INFO: [Dict Loading]ik\custom\sougou.dic
+Nov 26, 2014 7:32:57 PM org.elasticsearch.ik-analyzer
+INFO: [Dict Loading]ik\custom\ext_stopword.dic
+Total documents number is : 5808 , and right prediction is : 5230.0 .
+The 1 -th train arguments are : -t 0 -c 16.0 -g 0.00390625
+The accuracy is : 0.9004820936639119.
+----------------------------------------------------------------------------------
+Total documents number is : 5808 , and right prediction is : 5230.0 .
+The 2 -th train arguments are : -t 1 -c 16.0 -g 0.00390625
+The accuracy is : 0.9004820936639119.
+----------------------------------------------------------------------------------
+Total documents number is : 5808 , and right prediction is : 5230.0 .
+The 3 -th train arguments are : -t 3 -c 16.0 -g 0.00390625
+The accuracy is : 0.9004820936639119.
+----------------------------------------------------------------------------------
+Total documents number is : 5808 , and right prediction is : 5230.0 .
+The 4 -th train arguments are : -t 2 -c 16.0 -g 0.00390625
+The accuracy is : 0.9004820936639119.
+----------------------------------------------------------------------------------
+Total documents number is : 5808 , and right prediction is : 5254.0 .
+The 5 -th train arguments are : -t 0 -c 16.0 -g 0.0078125
+The accuracy is : 0.9046143250688705.
+----------------------------------------------------------------------------------
+Total documents number is : 5808 , and right prediction is : 5254.0 .
+The 6 -th train arguments are : -t 1 -c 16.0 -g 0.0078125
+The accuracy is : 0.9046143250688705.
+----------------------------------------------------------------------------------
+Total documents number is : 5808 , and right prediction is : 5254.0 .
+The 7 -th train arguments are : -t 3 -c 16.0 -g 0.0078125
+The accuracy is : 0.9046143250688705.
+----------------------------------------------------------------------------------
+Total documents number is : 5808 , and right prediction is : 5254.0 .
+The 8 -th train arguments are : -t 2 -c 16.0 -g 0.0078125
+The accuracy is : 0.9046143250688705.
+----------------------------------------------------------------------------------
+Total documents number is : 5808 , and right prediction is : 5250.0 .
+The 9 -th train arguments are : -t 0 -c 16.0 -g 0.015625
+The accuracy is : 0.9039256198347108.
+----------------------------------------------------------------------------------
+Total documents number is : 5808 , and right prediction is : 5250.0 .
+The 10 -th train arguments are : -t 1 -c 16.0 -g 0.015625
+The accuracy is : 0.9039256198347108.
+----------------------------------------------------------------------------------
+Total documents number is : 5808 , and right prediction is : 5250.0 .
+The 11 -th train arguments are : -t 3 -c 16.0 -g 0.015625
+The accuracy is : 0.9039256198347108.
+----------------------------------------------------------------------------------
+Total documents number is : 5808 , and right prediction is : 5250.0 .
+The 12 -th train arguments are : -t 2 -c 16.0 -g 0.015625
+The accuracy is : 0.9039256198347108.
+----------------------------------------------------------------------------------
+Total documents number is : 5808 , and right prediction is : 5240.0 .
+The 13 -th train arguments are : -t 0 -c 16.0 -g 0.03125
+The accuracy is : 0.9022038567493113.
+----------------------------------------------------------------------------------
+Total documents number is : 5808 , and right prediction is : 5240.0 .
+The 14 -th train arguments are : -t 1 -c 16.0 -g 0.03125
+The accuracy is : 0.9022038567493113.
+----------------------------------------------------------------------------------
+Total documents number is : 5808 , and right prediction is : 5240.0 .
+The 15 -th train arguments are : -t 3 -c 16.0 -g 0.03125
+The accuracy is : 0.9022038567493113.
+----------------------------------------------------------------------------------
+Total documents number is : 5808 , and right prediction is : 5240.0 .
+The 16 -th train arguments are : -t 2 -c 16.0 -g 0.03125
+The accuracy is : 0.9022038567493113.
+----------------------------------------------------------------------------------
+The best C/G is :  -t 0 -c 16.0 -g 0.0078125
+maxAccuracy is : 0.9046143250688705
