@@ -27,7 +27,8 @@ Also it can be used in plenty of text classifying scenes and has a good classify
 
 ####三、SVM通过超平面划分思想进行分类。
 
-	支持向量机借助核函数可以处理多维属性样本的分类，这里我们基于libsvm实现SVM分类器。libsvm提供了很多参数以供调整模型的生成，所以每次用于分类都可以有一个寻找最佳参数的过程，结合时间来说参数c、g的调整空间较大。
+	支持向量机借助核函数可以处理多维属性样本的分类，这里我们基于libsvm实现SVM分类器。
+	libsvm提供了很多参数以供调整模型的生成，所以每次用于分类都可以有一个寻找最佳参数的过程，结合时间来说参数c、g的调整空间较大。
 
 ####四、实现了一个简单的基于前三种分类器的分类投票决策器。
 
@@ -52,7 +53,7 @@ Also it can be used in plenty of text classifying scenes and has a good classify
 
 ![](https://github.com/xiaoliable/EssayClassifier/blob/master/doc/readme/TotalClassifierAccuracyRate.jpg)
 
-三个子分类器的准确率在90%左右，最终分类决策器准确率能达到97%。
+<font color="#0000FF"><b>三个子分类器的准确率在90%左右，最终分类决策器准确率能达到97%。</b></font>
 
 * 其中Naive Bayes分类详细结果：
 
