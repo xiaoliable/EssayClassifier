@@ -9,6 +9,47 @@ EssayClassifier is a project to classify the category of every traveling website
 
 Also it can be used in plenty of text classifying scenes and has a good classifying accuracy rate. 
 
+####Two key document sets' path：
+ 
+  * Training sample set path：EssayClassifier\xml\CategoryResult\workBase
+
+     In this path, there are 7 different category documents marked accurately by us, which will be trained to get the classification model. 
+    Number：5810
+ 
+  * Predicting sample set path：EssayClassifier\xml\NBCategoryResult
+
+   In this path, there are 7 different category documents marked accurately by us, which will be trained in classifiers to get the classification model.
+    Number：6363
+
+###Classification result
+
+* Ultimate classification result：
+
+![](https://github.com/xiaoliable/EssayClassifier/blob/master/doc/readme/TotalClassifierAccuracyRate.jpg)
+
+<font color="#0000FF"><b>3 sub-classifiers' accuracy is 90% or so, and the ultimate classifier's accuracy can touch 97%.</b></font>
+
+* Whereby the Naive Bayes classifier's result：
+
+![](https://github.com/xiaoliable/EssayClassifier/blob/master/doc/readme/NaiveBayesClassifierResult.jpg)
+
+In this picture, the Naive Bayes classifier's ultimate accuracy is close to 90%.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ##中文介绍
 
 此工程为基于网页内容ES-IK分词的KMeans聚类、朴素贝叶斯和支持向量机算法实现的s三个分类程序。
